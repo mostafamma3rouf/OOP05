@@ -44,6 +44,10 @@
              * so both the original and copied object refer to the same referenced objects
              */
             #endregion
+
+            #region d) What happens to reference-type members when a Deep Copy is created?
+            // When a deep copy is created, new copies of the referenced objects are also created.
+            #endregion
             #endregion
             #endregion
         }
