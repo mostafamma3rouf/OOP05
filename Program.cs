@@ -33,6 +33,10 @@
             #region a) What is a Shallow Copy?
             // create a new object and copies all value type fields, references type: only the references are copied
             #endregion
+
+            #region b) What is a Deep Copy?
+            // create a new object and recursively copies all nested objects
+            #endregion
             #endregion
             #endregion
         }
