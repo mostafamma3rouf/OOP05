@@ -78,6 +78,13 @@
              * is executed automatically once.
              */
             #endregion
+
+            #region d) What is a static class? Can you create an object from a static class?
+            /*
+             * is a class that cannot be instantiated and is designed to contain only static members.
+             * No, cannot create an object of a static class.
+             */
+            #endregion
             #endregion
             #endregion
         }
