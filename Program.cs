@@ -37,6 +37,13 @@
             #region b) What is a Deep Copy?
             // create a new object and recursively copies all nested objects
             #endregion
+
+            #region c) What happens to reference-type members when a Shallow Copy is created?
+            /*
+             * When a shallow copy is created, their references are copied
+             * so both the original and copied object refer to the same referenced objects
+             */
+            #endregion
             #endregion
             #endregion
         }
