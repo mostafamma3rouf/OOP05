@@ -157,6 +157,14 @@ namespace OOP05
             Shipment shipment5 = shipment1.DeepCopy();
             shipment5.Destination.City = "Paris";
             #endregion
+
+            #region 4 Static Field
+            /*
+               • It should keep track of the total number of Shipment objects created.
+               • Every time a shipment is created, increment the counter.
+               • The value must be shared between all shipment objects.
+             */
+            #endregion
             #endregion
         }
     }

@@ -95,12 +95,16 @@ namespace OOP05
         }
 
 
+        // Add a static field to Shipment: TotalShipmentsCreated.
+        public static int TotalShipmentsCreated = 0;
+
         public Shipment(string trackingCode, string description, decimal weight, decimal deliveryFee, DeliveryAddress destination)
         {
             TrackingCode = trackingCode;
             Description = description;
             Weight = weight;
             DeliveryFee = deliveryFee;
+            TotalShipmentsCreated++;
         }
 
         // Create a method: Shipment CopyShipment().
@@ -112,5 +116,6 @@ namespace OOP05
 
         // Create Shipment DeepCopy().
         public Shipment DeepCopy() => new Shipment(TrackingCode, Description, Weight, DeliveryFee, Destination.Copy());
+
     }
 }
