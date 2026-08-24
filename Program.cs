@@ -114,6 +114,11 @@
             #region b) Why would a developer split one class into multiple files?
             // to make the code easier to organize, read, and maintain.
             #endregion
+
+            #region c) What is a Partial Method?
+            // a partial method is a method that can be declared in one part of a partial class
+            // and implemented in another part.
+            #endregion
             #endregion
             #endregion
         }
