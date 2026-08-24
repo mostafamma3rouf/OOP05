@@ -48,6 +48,10 @@
             #region d) What happens to reference-type members when a Deep Copy is created?
             // When a deep copy is created, new copies of the referenced objects are also created.
             #endregion
+
+            #region e) Give one situation where Deep Copy would be safer than Shallow Copy.
+            // when copying a object that contains a mutable address object
+            #endregion
             #endregion
             #endregion
         }
