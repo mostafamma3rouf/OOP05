@@ -28,6 +28,12 @@
              */
             #endregion
             #endregion
+
+            #region Q2 Shallow Copy vs Deep Copy
+            #region a) What is a Shallow Copy?
+            // create a new object and copies all value type fields, references type: only the references are copied
+            #endregion
+            #endregion
             #endregion
         }
     }
