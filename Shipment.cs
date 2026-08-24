@@ -105,5 +105,9 @@ namespace OOP05
 
         // Create a method: Shipment CopyShipment().
         public Shipment CopyShipment() => new Shipment(TrackingCode, Description, Weight, DeliveryFee, Destination);
+
+        // Create Shipment ShallowCopy().
+        // Use MemberwiseClone() to create the copy.
+        public Shipment ShallowCopy() => (Shipment)this.MemberwiseClone();
     }
 }

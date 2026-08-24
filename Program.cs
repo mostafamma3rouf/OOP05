@@ -136,6 +136,18 @@ namespace OOP05
             Shipment shipment2 = shipment1;
             Shipment shipment3 = shipment1.CopyShipment();
             #endregion
+
+            #region 2 Shallow Copy
+            /*
+               • The original and copied Shipment objects must be different objects.
+               • Their DeliveryAddress objects must still reference the same object.
+               • Change the address through the copied shipment and demonstrate that the original shipment's address is also
+                affected.
+             */
+            Shipment shipment4 = shipment1.ShallowCopy();
+            shipment4.Destination.City = "Roma";
+
+            #endregion
             #endregion
         }
     }
