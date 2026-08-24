@@ -61,6 +61,14 @@
              * an instance field belongs to a specific object of the class
              */
             #endregion
+
+            #region b) What is a static method? Can a static method directly access instance members?
+            /*
+             * a static method is a method that belongs to the class itself.
+             * No, cannot directly access instance fields or methods 
+               because it does not belong to a particular object.
+             */
+            #endregion
             #endregion
             #endregion
         }
