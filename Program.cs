@@ -69,6 +69,15 @@
                because it does not belong to a particular object.
              */
             #endregion
+
+            #region c) What is a static constructor, and when is it executed?
+            /*
+             * a static constructor is a special constructor used to initialize static fields 
+               or other static data of a class.
+
+             * is executed automatically once.
+             */
+            #endregion
             #endregion
             #endregion
         }
