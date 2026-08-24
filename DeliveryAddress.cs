@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
+using System.Net;
 using System.Text;
 
 namespace OOP05
@@ -34,5 +36,10 @@ namespace OOP05
         }
 
         public string GetFullAddress() => $"the complete address: {City} - {Street} - {BuildingNumber}";
+
+        public DeliveryAddress Copy()
+        {
+            return new DeliveryAddress(City, Street, BuildingNumber);
+        }
     }
 }

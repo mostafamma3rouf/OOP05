@@ -148,6 +148,15 @@ namespace OOP05
             shipment4.Destination.City = "Roma";
 
             #endregion
+
+            #region 3 Deep Copy
+            /*
+               • The Deep Copy must create a new Shipment and a new DeliveryAddress.
+               • Change the address of the copied shipment; the original address must remain unchanged.
+             */
+            Shipment shipment5 = shipment1.DeepCopy();
+            shipment5.Destination.City = "Paris";
+            #endregion
             #endregion
         }
     }

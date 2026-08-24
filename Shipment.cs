@@ -109,5 +109,8 @@ namespace OOP05
         // Create Shipment ShallowCopy().
         // Use MemberwiseClone() to create the copy.
         public Shipment ShallowCopy() => (Shipment)this.MemberwiseClone();
+
+        // Create Shipment DeepCopy().
+        public Shipment DeepCopy() => new Shipment(TrackingCode, Description, Weight, DeliveryFee, Destination.Copy());
     }
 }
