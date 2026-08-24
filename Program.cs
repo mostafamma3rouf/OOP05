@@ -12,6 +12,11 @@
              * because some will take the value and others will point to the reference.
              */
             #endregion
+
+            #region b) Does assigning one object to another create a new object? Explain.
+            // No. Assigning one object to another usually does not create a new object.
+            // Instead, both variables refer to the same object.
+            #endregion
             #endregion
             #endregion
         }
