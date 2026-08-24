@@ -53,6 +53,15 @@
             // when copying a object that contains a mutable address object
             #endregion
             #endregion
+
+            #region Q3 Static Members
+            #region a) What is a static field, and how is it different from an instance field?
+            /*
+             * a static field is a field that belongs to the class itself
+             * an instance field belongs to a specific object of the class
+             */
+            #endregion
+            #endregion
             #endregion
         }
     }
