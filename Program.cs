@@ -105,6 +105,12 @@
             // No, access private members of the class it extends.
             #endregion
             #endregion
+
+            #region Q5 Partial Classes and Partial Methods
+            #region a) What is a Partial Class?
+            // a partial class allows you to split the definition of one class across multiple files.
+            #endregion
+            #endregion
             #endregion
         }
     }
