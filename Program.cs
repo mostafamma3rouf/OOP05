@@ -125,6 +125,15 @@
             #endregion
             #endregion
             #endregion
+
+            #region Part 02 — Practical
+            #region 1 Object Copying
+            // does not create a new Shipment object. It copies the reference,
+            // so both variables point to the same object.
+            Shipment shipment1 = new Shipment("SH001", "Laptop", 2.5m, 2800);
+            Shipment shipment2 = shipment1.CopyShipment();
+            #endregion
+            #endregion
         }
     }
 }
