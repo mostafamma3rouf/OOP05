@@ -92,6 +92,10 @@
             // method that allows you to add new functionality to an existing type without modifying
             // its original source code or creating a derived class.
             #endregion
+
+            #region b) What keyword must be used in the first parameter of an extension method?
+            // this
+            #endregion
             #endregion
             #endregion
         }
