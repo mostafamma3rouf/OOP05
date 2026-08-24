@@ -86,6 +86,13 @@
              */
             #endregion
             #endregion
+
+            #region Q4 Extension Methods
+            #region a) What is an Extension Method?
+            // method that allows you to add new functionality to an existing type without modifying
+            // its original source code or creating a derived class.
+            #endregion
+            #endregion
             #endregion
         }
     }
