@@ -119,6 +119,10 @@
             // a partial method is a method that can be declared in one part of a partial class
             // and implemented in another part.
             #endregion
+
+            #region d) What happens if a declared partial method has no implementation?
+            // the compiler generally removes the method declaration and any calls to it from the compiled code.
+            #endregion
             #endregion
             #endregion
         }
