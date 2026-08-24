@@ -96,6 +96,10 @@
             #region b) What keyword must be used in the first parameter of an extension method?
             // this
             #endregion
+
+            #region c) Where must an extension method be declared?
+            //must be declared inside a static class.
+            #endregion
             #endregion
             #endregion
         }
