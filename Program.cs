@@ -174,6 +174,16 @@ namespace OOP05
                 Shipment System Initialized
              */
             #endregion
+
+            #region 6 Static Method
+            /*
+              • Return the total number of shipment objects created.
+              • Call the method without creating a Shipment object just to access the method.
+                Total Shipments Created : 3
+             */
+            Console.WriteLine($"Total Shipments Created : {Shipment.GetTotalShipmentsCreated()}");
+
+            #endregion
             #endregion
         }
     }

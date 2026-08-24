@@ -122,5 +122,11 @@ namespace OOP05
         // Create Shipment DeepCopy().
         public Shipment DeepCopy() => new Shipment(TrackingCode, Description, Weight, DeliveryFee, Destination.Copy());
 
+        // Add: static int GetTotalShipmentsCreated().
+        public static int GetTotalShipmentsCreated()
+        {
+            return TotalShipmentsCreated;
+        }
+
     }
 }
