@@ -10,17 +10,9 @@ namespace OOP05
         private string _description;
         private decimal _weight;
         private decimal _deliveryfee;
-        private DeliveryAddress _destination;
+        public DeliveryAddress Destination;
 
         public decimal _estimatedcost;
-
-        public Shipment(string trackingCode, string description, decimal weight, decimal deliveryFee)
-        {
-            TrackingCode = trackingCode;
-            Description = description;
-            Weight = weight;
-            DeliveryFee = deliveryFee;
-        }
 
         public string TrackingCode
         {
@@ -102,7 +94,16 @@ namespace OOP05
             }
         }
 
+
+        public Shipment(string trackingCode, string description, decimal weight, decimal deliveryFee, DeliveryAddress destination)
+        {
+            TrackingCode = trackingCode;
+            Description = description;
+            Weight = weight;
+            DeliveryFee = deliveryFee;
+        }
+
         // Create a method: Shipment CopyShipment().
-        public Shipment CopyShipment() => new Shipment(TrackingCode, Description, Weight, DeliveryFee);
+        public Shipment CopyShipment() => new Shipment(TrackingCode, Description, Weight, DeliveryFee, Destination);
     }
 }

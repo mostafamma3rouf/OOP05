@@ -1,4 +1,6 @@
-﻿namespace OOP05
+﻿using System.Runtime.InteropServices.Marshalling;
+
+namespace OOP05
 {
     internal class Program
     {
@@ -130,8 +132,9 @@
             #region 1 Object Copying
             // does not create a new Shipment object. It copies the reference,
             // so both variables point to the same object.
-            Shipment shipment1 = new Shipment("SH001", "Laptop", 2.5m, 2800);
-            Shipment shipment2 = shipment1.CopyShipment();
+            Shipment shipment1 = new Shipment("SH001", "Laptop", 2.5m, 2800, new DeliveryAddress("cairo","Dr",8));
+            Shipment shipment2 = shipment1;
+            Shipment shipment3 = shipment1.CopyShipment();
             #endregion
             #endregion
         }
