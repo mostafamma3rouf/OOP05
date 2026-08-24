@@ -165,6 +165,15 @@ namespace OOP05
                • The value must be shared between all shipment objects.
              */
             #endregion
+
+            #region 5 Static Constructor
+            /*
+              • Initialize the shipment counter and display a message indicating 
+                that static initialization has happened.
+              • The static constructor must not be called manually.
+                Shipment System Initialized
+             */
+            #endregion
             #endregion
         }
     }

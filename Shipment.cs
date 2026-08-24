@@ -94,6 +94,11 @@ namespace OOP05
             }
         }
 
+        // Add a static constructor to Shipment.
+        static Shipment()
+        {
+            Console.WriteLine("that static initialization has happened");
+        }
 
         // Add a static field to Shipment: TotalShipmentsCreated.
         public static int TotalShipmentsCreated = 0;
