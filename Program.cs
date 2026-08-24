@@ -110,6 +110,10 @@
             #region a) What is a Partial Class?
             // a partial class allows you to split the definition of one class across multiple files.
             #endregion
+
+            #region b) Why would a developer split one class into multiple files?
+            // to make the code easier to organize, read, and maintain.
+            #endregion
             #endregion
             #endregion
         }
