@@ -132,9 +132,9 @@ namespace OOP05
             #region 1 Object Copying
             // does not create a new Shipment object. It copies the reference,
             // so both variables point to the same object.
-            Shipment shipment1 = new Shipment("SH001", "Laptop", 2.5m, 2800, new DeliveryAddress("cairo","Dr",8));
-            Shipment shipment2 = shipment1;
-            Shipment shipment3 = shipment1.CopyShipment();
+            //Shipment shipment1 = new Shipment("SH001", "Laptop", 2.5m, 2800, new DeliveryAddress("cairo","Dr",8));
+            //Shipment shipment2 = shipment1;
+            //Shipment shipment3 = shipment1.CopyShipment();
             #endregion
 
             #region 2 Shallow Copy
@@ -144,8 +144,8 @@ namespace OOP05
                • Change the address through the copied shipment and demonstrate that the original shipment's address is also
                 affected.
              */
-            Shipment shipment4 = shipment1.ShallowCopy();
-            shipment4.Destination.City = "Roma";
+            //Shipment shipment4 = shipment1.ShallowCopy();
+            //shipment4.Destination.City = "Roma";
 
             #endregion
 
@@ -154,8 +154,8 @@ namespace OOP05
                • The Deep Copy must create a new Shipment and a new DeliveryAddress.
                • Change the address of the copied shipment; the original address must remain unchanged.
              */
-            Shipment shipment5 = shipment1.DeepCopy();
-            shipment5.Destination.City = "Paris";
+            //Shipment shipment5 = shipment1.DeepCopy();
+            //shipment5.Destination.City = "Paris";
             #endregion
 
             #region 4 Static Field
@@ -181,9 +181,22 @@ namespace OOP05
               • Call the method without creating a Shipment object just to access the method.
                 Total Shipments Created : 3
              */
-            Console.WriteLine($"Total Shipments Created : {Shipment.GetTotalShipmentsCreated()}");
+            //Console.WriteLine($"Total Shipments Created : {Shipment.GetTotalShipmentsCreated()}");
 
             #endregion
+
+            #region 7 Static Class
+            /*
+              • Create a static class named DeliveryUtilities.
+              • Add static methods: PrintSeparator() and PrintSystemTitle().
+              • Use these methods throughout Main() instead of repeatedly writing the same separator/title code.
+             */
+            //DeliveryUtilities.PrintSeparator();
+            //DeliveryUtilities.PrintSystemTitle();
+
+            #endregion
+
+
             #endregion
         }
     }
