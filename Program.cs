@@ -196,7 +196,20 @@ namespace OOP05
 
             #endregion
 
-
+            #region 8 Extension Methods
+            /*
+            • Create a static class named ShipmentExtensions.
+            • Add string GetSummary(this Shipment shipment).
+            • The summary must contain Tracking Code, Shipment Type, Weight, and Tracking Status.
+            SH001 | Standard | 3 KG | In Transit
+            • Add bool IsDelivered(this Shipment shipment).
+            • Return true only when the tracking status is Delivered.
+            shipment.GetSummary();
+            shipment.IsDelivered();
+             */
+            //shipment.GetSummary();
+            //shipment.IsDelivered();
+            #endregion
             #endregion
         }
     }
