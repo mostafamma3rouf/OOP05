@@ -210,6 +210,19 @@ namespace OOP05
             //shipment.GetSummary();
             //shipment.IsDelivered();
             #endregion
+
+            #region 9 Partial Shipment Class 
+            /*
+            • Convert the existing Shipment class into a partial class.
+            • Split it into at least two files: Shipment.cs and Shipment.Tracking.cs.
+            • Shipment.cs should contain the main properties, constructor, EstimatedCost, PrintShipment(), and other existing
+            functionality.
+            • Shipment.Tracking.cs should contain tracking-related members such as tracking status, GetTrackingStatus(), and
+            UpdateTrackingStatus().
+            • The program must continue to work exactly as before.
+             */
+
+            #endregion
             #endregion
         }
     }

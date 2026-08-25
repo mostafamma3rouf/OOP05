@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Channels;
 
 namespace OOP05
 {
-    internal class Shipment
+    internal partial class Shipment
     {
         private string _trackingcode;
         private string _description;
@@ -94,6 +95,8 @@ namespace OOP05
             }
         }
 
+        public decimal EstimatedCost() => DeliveryFee + Weight;
+
         // Add a static constructor to Shipment.
         static Shipment()
         {
@@ -127,6 +130,8 @@ namespace OOP05
         {
             return TotalShipmentsCreated;
         }
+
+        public void PrintShipment() => Console.WriteLine($"TrackingCode: {TrackingCode}, Description: {Description}, Weight: {Weight}, DeliveryFee: {DeliveryFee}, Destination: {Destination}");
 
     }
 }

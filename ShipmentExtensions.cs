@@ -12,9 +12,9 @@ namespace OOP05
                    $"{shipment.Weight} KG | In Transit";
         }
 
-        //public static bool IsDelivered(this Shipment shipment)
-        //{
-        //    return shipment.TrackingStatus == "Delivered";
-        //}
+        public static bool IsDelivered(this Shipment shipment)
+        {
+            return shipment.TrackingStatus == "Delivered";
+        }
     }
 }
