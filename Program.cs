@@ -223,6 +223,16 @@ namespace OOP05
              */
 
             #endregion
+
+            #region 10 Partial Method
+            /*
+            • Declare a partial method: partial void OnTrackingStatusChanged(string newStatus);
+            • Call it from UpdateTrackingStatus().
+            • Implement the partial method in another part of the Shipment class.
+            • Display a message when the tracking status changes.
+            Tracking status changed to: Out For Delivery
+             */
+            #endregion
             #endregion
         }
     }
